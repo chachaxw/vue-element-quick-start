@@ -32,7 +32,7 @@
         border-radius: 16px;
         text-align: center;
         background-color: #20A0FF;
-        transition: all .3s ease-in-out;
+        transition: all .3s cubic-bezier(0.18, 0.49, 0.39, 1.22);
         &:hover {
           background-color: transparent;
           & + .el-input input {
@@ -98,11 +98,14 @@
 // 左侧导航栏样式
 .nav-menu {
   width: 240px;
+  min-width: 240px;
+  height: calc(100%-72px);
   border-radius: 0;
 }
 
 
 // 内容区域样式
-.container {
+#container {
   min-height: 960px;
+  flex: 1 auto;
 }

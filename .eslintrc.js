@@ -4,9 +4,6 @@ module.exports = {
   parserOptions: {
     sourceType: 'module'
   },
-  "globals" : {
-		"require": true,
-	},
   extends: 'airbnb-base',
   // required to lint *.vue files
   plugins: [

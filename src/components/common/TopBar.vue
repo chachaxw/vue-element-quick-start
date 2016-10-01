@@ -1,7 +1,7 @@
 <template>
   <el-row class="top-bar" type="flex">
     <div class="logo">
-      <img src="../../assets/images/logo.svg" alt="logo" />
+      <a href="/"><img src="../../assets/images/logo.svg" alt="logo" /></a>
     </div>
     <el-col :span="8" :push="11">
       <el-col :span="18" class="top-control">
