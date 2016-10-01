@@ -16,6 +16,83 @@
       margin-top: 16px;
     }
   }
+  .top-control {
+    padding: 20px 16px;
+    height: 100%;
+    .el-form-item {
+      margin: 0;
+      .el-icon-search {
+        top: 0;
+        right: 0;
+        font-size: 20px;
+        position: absolute;
+        z-index: 1;
+        width: 32px;
+        line-height: 32px;
+        border-radius: 16px;
+        text-align: center;
+        background-color: #20A0FF;
+        transition: all .3s ease-in-out;
+        &:hover {
+          background-color: transparent;
+          & + .el-input input {
+            width: 100%;
+            height: 32px;
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .el-form-item__content {
+      line-height: 1;
+    }
+    .el-input {
+      position: relative;
+      height: 32px;
+      input {
+        width: 0;
+        height: 0;
+        border: none;
+        float: right;
+        color: #F9FAFC;
+        opacity: 0;
+        border-radius: 16px;
+        background-color: #8492A6;
+        transition: all .3s cubic-bezier(0.18, 0.49, 0.39, 1.22);
+        &:hover {
+          width: 100%;
+          height: 32px;
+          opacity: 1;
+        }
+        &::-webkit-input-placeholder {
+          color: #C0CCDA;
+        }
+        &::-moz-placeholder {
+          color: #C0CCDA;
+        }
+        &::-ms-input-placeholder {
+          color: #C0CCDA;
+        }
+      }
+    }
+    .user-avatar {
+      height: 32px;
+      .avatar-img {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        margin-right: 10px;
+        vertical-align: middle;
+        background-color: #D8D8D8;
+      }
+      .el-icon-arrow-down {
+        vertical-align: middle;
+        font-size: 12px;
+        color: #C0CCDA;
+      }
+    }
+  }
 }
 
 // 左侧导航栏样式
