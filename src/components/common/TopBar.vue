@@ -1,11 +1,10 @@
 <template>
-  <el-row>
-    <el-col :span="24">
-      <div class="grid-content bg-purple-dark top-bar">
-        <div class="logo">
-          <img src="../../assets/images/logo.svg" alt="" />
-        </div>
-      </div>
-    </el-col>
+  <el-row class="top-bar" type="flex">
+    <div class="logo">
+      <img src="../../assets/images/logo.svg" alt="logo" />
+    </div>
+    <div class="top-control">
+      
+    </div>
   </el-row>
 </template>

@@ -3,19 +3,20 @@
     <TopBar></TopBar>
     <el-row type="flex">
       <NavMenu></NavMenu>
-      <Content></Content>
+      <Container></Container>
     </el-row>
   </div>
 </template>
 
 <script>
+import 'components/common/style.scss';
 import TopBar from 'components/common/TopBar';
 import NavMenu from 'components/common/NavMenu';
-import Content from 'components/common/Content';
+import Container from 'components/common/Container';
 
 export default {
   components: {
-    TopBar, NavMenu, Content,
+    TopBar, NavMenu, Container,
   },
 };
 </script>
