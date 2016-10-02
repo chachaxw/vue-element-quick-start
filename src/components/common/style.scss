@@ -6,6 +6,8 @@
 .top-bar {
   height: 72px;
   color: #fff;
+  position: relative;
+  z-index: 1;
   background-color: #324057;
   .logo {
     width: 240px;
@@ -16,9 +18,14 @@
       margin-top: 16px;
     }
   }
-  .top-control {
-    padding: 20px 16px;
+  .top-wrapper {
+    flex: 1;
+    margin-right: 72px;
+  }
+  .search-area {
+    padding: 20px 10px;
     height: 100%;
+    max-width: 360px;
     .el-form-item {
       margin: 0;
       .el-icon-search {
@@ -75,6 +82,10 @@
         }
       }
     }
+  }
+  .user-area {
+    padding: 20px 10px;
+    display: inline-block;
     .user-avatar {
       height: 32px;
       .avatar-img {
@@ -96,16 +107,51 @@
 }
 
 // 左侧导航栏样式
-.nav-menu {
+#nav-menu {
   width: 240px;
   min-width: 240px;
   height: calc(100%-72px);
   border-radius: 0;
+  .nav-link {
+    display: block;
+  }
 }
-
 
 // 内容区域样式
 #container {
   min-height: 960px;
   flex: 1 auto;
+}
+
+// 公共样式
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+[v-cloak] {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #C0CCDA;
+}
+.router-link-active {
+  color: #20a0ff;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+  transition: all 0.6s cubic-bezier(0.18, 0.49, 0.8, 1.22);
+}
+.slide-fade-leave-active {
+  transition: all 0.6s cubic-bezier(0.18, 0.49, 0.8, 1.22);
+}
+.slide-fade-enter,
+.slide-fade-leave-active {
+  transform: translate3d(0, -400px, 0);
+  opacity: 0;
+  transition: all 0.6s cubic-bezier(0.18, 0.49, 0.8, 1.22);
 }

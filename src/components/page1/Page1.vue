@@ -1,5 +1,6 @@
 <template lang="html">
-  <div class="page1">
-    <h1 style="margin-top: 100px; text-align: center;">This is Page1</h1>
+  <div class="page">
+    <h1 style="text-align: center;">This is Page1</h1>
+    <img src="../../assets/images/page1.jpg" width="100%" />
   </div>
 </template>

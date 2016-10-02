@@ -1,10 +1,16 @@
 <template>
   <el-row class="top-bar" type="flex">
     <div class="logo">
-      <a href="/"><img src="../../assets/images/logo.svg" alt="logo" /></a>
+      <router-link to="/"><img src="../../assets/images/logo.svg" alt="logo" /></router-link>
     </div>
-    <el-col :span="8" :push="11">
-      <el-col :span="18" class="top-control">
+    <div class="top-wrapper">
+      <div class="user-area pull-right">
+        <div class="user-avatar">
+          <span class="avatar-img"></span>
+          <i class="el-icon-arrow-down"></i>
+        </div>
+      </div>
+      <el-col :span="8" class="search-area pull-right">
         <el-form>
           <el-form-item>
             <i class="el-icon-search"></i>
@@ -12,12 +18,6 @@
           </el-form-item>
         </el-form>
       </el-col>
-      <el-col :span="6" class="top-control">
-        <div class="user-avatar">
-          <span class="avatar-img"></span>
-          <i class="el-icon-arrow-down"></i>
-        </div>
-      </el-col>
-    </el-col>
+    </div>
   </el-row>
 </template>
