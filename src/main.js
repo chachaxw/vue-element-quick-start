@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import App from './App';
-// import store from './store/store';
+import store from './store/store';
 import routes from './routes';
 import VueRouter from 'vue-router';
 import Element from 'element-ui';
@@ -22,4 +22,5 @@ new Vue({
   el: '#app',
   render: h => h(App),
   router,
+  store,
 });

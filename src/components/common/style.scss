@@ -150,18 +150,24 @@ a {
   animation: animate-out .6s;
 }
 @keyframes animate-in {
-  0%{
-    transform: matrix(0, 0.001, 0.001, 0, 0.5, 0.5);
+  0% {
+    transform: scale(0);
   }
-  100%{
-    transform: matrix(1, 0, 0, 1, 1, 1);
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
 @keyframes animate-out {
-  0%{
-    transform: matrix(1, 0, 0, 1, 1, 1);
+  0% {
+    transform: scale(1);
   }
-  100%{
-    transform: matrix(0, 0.001, 0.001, 0, 0.5, 0.5);
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0);
   }
 }

@@ -8,5 +8,9 @@
   .home {
     text-align: center;
     width: 100%;
+    img {
+      max-width: 600px;
+      margin: 0 auto;
+    }
   }
 </style>
