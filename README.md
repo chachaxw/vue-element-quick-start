@@ -14,5 +14,7 @@ npm run dev
 # build for production with minification
 npm run build
 
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, checkout the \n [guide](http://vuejs-templates.github.io/webpack/), \n
+[docs for vue-loader](http://vuejs.github.io/vue-loader), \n
+[docs for element-ui](http://element.eleme.io), \n
+[docs for vuex](http://vuex.vuejs.org/en/index.html)
