@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "server": "supervisor node server/server.js"
   },
   "dependencies": {
     "element-ui": "^1.0.0-rc.5",
@@ -25,7 +26,9 @@
     "babel-preset-stage-2": "^6.0.0",
     "babel-register": "^6.0.0",
     "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
     "connect-history-api-fallback": "^1.1.0",
+    "cors": "^2.8.1",
     "css-loader": "^0.25.0",
     "eslint": "^3.6.1",
     "eslint-config-airbnb-base": "^3.0.1",
