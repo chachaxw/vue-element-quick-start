@@ -17,7 +17,8 @@ npm run build
 # server with back-end mock data at localhost:8080
 npm run server
 
-For detailed explanation on how things work, checkout the \n [guide](http://vuejs-templates.github.io/webpack/), \n
-[docs for vue-loader](http://vuejs.github.io/vue-loader), \n
-[docs for element-ui](http://element.eleme.io), \n
+For detailed explanation on how things work, checkout the<br/> 
+[project guide](http://vuejs-templates.github.io/webpack/)<br/>
+[docs for vue-loader](http://vuejs.github.io/vue-loader)<br/>
+[docs for element-ui](http://element.eleme.io)<br/>
 [docs for vuex](http://vuex.vuejs.org/en/index.html)
