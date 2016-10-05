@@ -7,7 +7,10 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
-    "lint": "eslint --ext .js,.vue src",
+    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "unit": "karma start test/unit/karma.conf.js --single-run",
+    "e2e": "node test/e2e/runner.js",
+    "test": "npm run unit && npm run e2e",
     "server": "supervisor node server/server.js"
   },
   "dependencies": {
