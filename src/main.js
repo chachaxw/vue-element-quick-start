@@ -14,7 +14,6 @@ Vue.use(Vuex);
 
 const router = new VueRouter({
   routes,
-  hashbang: true,
 });
 
 /* eslint-disable no-new */
