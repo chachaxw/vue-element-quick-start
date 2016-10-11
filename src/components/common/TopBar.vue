@@ -8,6 +8,12 @@
         <div class="user-avatar">
           <span class="avatar-img"></span>
           <i class="el-icon-arrow-down"></i>
+          <div class="drop-menu">
+            <ul>
+              <li><i class="iconfont">&#xe603;</i>管理员</li>
+              <li><i class="iconfont">&#xe602;</i>退出</li>
+            </ul>
+          </div>
         </div>
       </div>
       <el-col :span="8" class="search-area pull-right">

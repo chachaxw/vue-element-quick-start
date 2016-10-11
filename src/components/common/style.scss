@@ -1,10 +1,26 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1476180127_2466838.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1476180127_2466838.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1476180127_2466838.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1476180127_2466838.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1476180127_2466838.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
 #app {
   min-width: 1080px;
 }
 
 // 顶栏样式
 .top-bar {
-  height: 72px;
+  height: 64px;
   color: #fff;
   position: relative;
   z-index: 1;
@@ -15,17 +31,17 @@
     text-align: center;
     background-color: #1F2D3D;
     img {
-      margin-top: 16px;
+      margin-top: 12px;
     }
   }
   .top-wrapper {
     flex: 1;
-    margin-right: 72px;
+    margin-right: 64px;
   }
   .search-area {
-    padding: 20px 10px;
+    padding: 16px 10px;
     height: 100%;
-    max-width: 360px;
+    max-width: 320px;
     .el-form-item {
       margin: 0;
       .el-icon-search {
@@ -38,16 +54,7 @@
         line-height: 32px;
         border-radius: 16px;
         text-align: center;
-        background-color: #20A0FF;
-        transition: all .3s cubic-bezier(0.18, 0.49, 0.39, 1.22);
-        &:hover {
-          background-color: transparent;
-          & + .el-input input {
-            width: 100%;
-            height: 32px;
-            opacity: 1;
-          }
-        }
+        background-color: #8492A6;
       }
     }
     .el-form-item__content {
@@ -57,20 +64,13 @@
       position: relative;
       height: 32px;
       input {
-        width: 0;
-        height: 0;
+        height: 32px;
         border: none;
         float: right;
         color: #F9FAFC;
-        opacity: 0;
+        opacity: 1;
         border-radius: 16px;
         background-color: #8492A6;
-        transition: all .3s cubic-bezier(0.18, 0.49, 0.39, 1.22);
-        &:hover {
-          width: 100%;
-          height: 32px;
-          opacity: 1;
-        }
         &::-webkit-input-placeholder {
           color: #C0CCDA;
         }
@@ -84,8 +84,15 @@
     }
   }
   .user-area {
-    padding: 20px 10px;
+    padding: 16px 10px;
     display: inline-block;
+    position: relative;
+    &:hover {
+      background-color: #475669;
+      .drop-menu {
+        display: block;
+      }
+    }
     .user-avatar {
       height: 32px;
       .avatar-img {
@@ -102,6 +109,34 @@
         font-size: 12px;
         color: #C0CCDA;
       }
+    }
+  }
+  .drop-menu {
+    position: absolute;
+    right: 0;
+    top: 64px;
+    display: none;
+    background-color: #475669;
+    color: #99A9BF;
+    width: 140px;
+    z-index: 1;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      padding: 12px 20px;
+      cursor: pointer;
+      line-height: 1;
+      font-size: 14px;
+      &:hover {
+        background-color: #8492A6;
+      }
+    }
+    .iconfont {
+      font-size: 20px;
+      margin-right: 10px;
     }
   }
 }
