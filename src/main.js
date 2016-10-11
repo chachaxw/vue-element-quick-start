@@ -11,6 +11,7 @@ import routes from './routes';
 Vue.use(Element);
 Vue.use(VueRouter);
 Vue.use(Vuex);
+// Vue.config.silent = true;
 
 const router = new VueRouter({
   routes,
