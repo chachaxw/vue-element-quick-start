@@ -14,7 +14,7 @@
     "server": "supervisor node server/server.js"
   },
   "dependencies": {
-    "element-ui": "^1.0.0-rc.5",
+    "element-ui": "^1.0.0-rc.7",
     "normalize.css": "^5.0.0",
     "vue": "^2.0.1",
     "vue-router": "^2.0.0",
