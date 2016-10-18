@@ -88,7 +88,7 @@
     display: inline-block;
     position: relative;
     &:hover {
-      background-color: #475669;
+      background-color: #1F2D3D;
       .drop-menu {
         display: block;
       }
@@ -102,6 +102,8 @@
         border-radius: 16px;
         margin-right: 10px;
         vertical-align: middle;
+        background: center no-repeat;
+        background-size: cover;
         background-color: #D8D8D8;
       }
       .el-icon-arrow-down {
@@ -116,7 +118,7 @@
     right: 0;
     top: 64px;
     display: none;
-    background-color: #475669;
+    background-color: #1F2D3D;
     color: #99A9BF;
     width: 140px;
     z-index: 1;
@@ -131,7 +133,7 @@
       line-height: 1;
       font-size: 14px;
       &:hover {
-        background-color: #8492A6;
+        background-color: #475669;
       }
     }
     .iconfont {
