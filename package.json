@@ -35,7 +35,7 @@
     "connect-history-api-fallback": "^1.1.0",
     "cors": "^2.8.1",
     "css-loader": "^0.25.0",
-    "eslint": "^3.8.1",
+    "eslint": "^3.9.0",
     "eslint-config-airbnb-base": "^9.0.0",
     "eslint-friendly-formatter": "^2.0.5",
     "eslint-loader": "^1.6.0",
@@ -46,7 +46,7 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
     "function-bind": "^1.0.2",
-    "html-webpack-plugin": "^2.24.0",
+    "html-webpack-plugin": "^2.24.1",
     "http-proxy-middleware": "^0.17.2",
     "json-loader": "^0.5.4",
     "node-sass": "^3.10.1",
@@ -60,7 +60,7 @@
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
-    "webpack-hot-middleware": "^2.13.0",
+    "webpack-hot-middleware": "^2.13.1",
     "webpack-merge": "^0.15.0"
   }
 }
