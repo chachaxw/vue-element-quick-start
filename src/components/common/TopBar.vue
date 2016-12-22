@@ -1,10 +1,5 @@
 <template>
-  <el-row class="top-bar" type="flex">
-    <div class="logo">
-      <router-link to="/">
-        <img src="../../assets/images/logo.svg" />
-      </router-link>
-    </div>
+  <el-row class="top-bar">
     <div class="top-wrapper">
       <div class="user-area pull-right">
         <div class="user-avatar">

@@ -15,25 +15,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 #app {
+  display: flex;
   min-width: 1080px;
+  background-color: #1A191F;
+  color: #dbdbdb;
 }
 
 // 顶栏样式
 .top-bar {
-  height: 64px;
-  color: #fff;
-  position: relative;
-  z-index: 1;
-  background-color: #324057;
-  .logo {
-    width: 240px;
-    height: 100%;
-    text-align: center;
-    background-color: #1F2D3D;
-    img {
-      margin-top: 12px;
-    }
-  }
+  height: 60px;
   .top-wrapper {
     flex: 1;
     margin-right: 64px;
@@ -44,6 +34,8 @@
     max-width: 320px;
     .el-form-item {
       margin: 0;
+      border-radius: 16px;
+      box-shadow: 0 5px 20px rgba(0,0,0,.3);
       .el-icon-search {
         top: 0;
         right: 0;
@@ -54,7 +46,7 @@
         line-height: 32px;
         border-radius: 16px;
         text-align: center;
-        background-color: #8492A6;
+        background-color: #20202A;
       }
     }
     .el-form-item__content {
@@ -70,7 +62,7 @@
         color: #F9FAFC;
         opacity: 1;
         border-radius: 16px;
-        background-color: #8492A6;
+        background-color: #20202A;
         &::-webkit-input-placeholder {
           color: #C0CCDA;
         }
@@ -88,7 +80,7 @@
     display: inline-block;
     position: relative;
     &:hover {
-      background-color: #1F2D3D;
+      background-color: #20202A;
       .drop-menu {
         display: block;
       }
@@ -118,10 +110,10 @@
     right: 0;
     top: 64px;
     display: none;
-    background-color: #1F2D3D;
-    color: #99A9BF;
     width: 140px;
     z-index: 1;
+    background-color: #20202A;
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
     ul {
       list-style: none;
       margin: 0;
@@ -133,7 +125,7 @@
       line-height: 1;
       font-size: 14px;
       &:hover {
-        background-color: #475669;
+        background-color: #2b3035;
       }
     }
     .iconfont {
@@ -149,8 +141,34 @@
   min-width: 240px;
   height: calc(100%-72px);
   border-radius: 0;
+  background-color: #20202A;
+  box-shadow: 5px 0 20px rgba(0,0,0,.3);
+  .logo {
+    width: 240px;
+    height: 60px;
+    text-align: center;
+    background-color: #20202A;
+    img {
+      margin-top: 12px;
+    }
+  }
   .nav-link {
     display: block;
+  }
+  .el-menu {
+    background-color: #1A191F;
+  }
+  .el-menu-item,
+  .el-submenu .el-submenu__title {
+    height: 44px;
+    line-height: 44px;
+    color: #dbdbdb;
+    &:hover {
+      background-color: #2b3035;
+    }
+  }
+  .router-link-active {
+    color: #03a9f4;
   }
 }
 
