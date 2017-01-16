@@ -19,15 +19,6 @@ npm run build
 # serve with backend mock data at localhost:8080
 npm run server
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
 
 For detailed explanation on how things work, checkout the
 [project guide](http://vuejs-templates.github.io/webpack/).
@@ -74,16 +65,6 @@ More docs:
 │   ├── App.vue                   # app main component
 │   └── ...
 ├── static/                       # pure static assets (directly copied)
-├── test/
-│   └── unit/                     # unit tests
-│   │   ├── specs/                # test spec files
-│   │   ├── index.js              # test build entry file
-│   │   └── karma.conf.js         # test runner config file
-│   └── e2e/                      # e2e tests
-│   │   ├── specs/                # test spec files
-│   │   ├── custom-assertions/    # custom assertions for e2e tests
-│   │   ├── runner.js             # test runner script
-│   │   └── nightwatch.conf.js    # test runner config file
 ├── .babelrc                      # babel config
 ├── .editorconfig.js              # editor config
 ├── .eslintrc.js                  # eslint config

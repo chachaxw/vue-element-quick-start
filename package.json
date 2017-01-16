@@ -8,9 +8,6 @@
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
-    "unit": "karma start test/unit/karma.conf.js --single-run",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
     "server": "supervisor node server/server.js"
   },
   "dependencies": {
@@ -18,7 +15,6 @@
     "normalize.css": "^5.0.0",
     "vue": "^2.1.8",
     "vue-router": "^2.0.1",
-    "vue-template-compiler": "^2.1.8",
     "vuex": "^2.0.0"
   },
   "devDependencies": {
@@ -59,6 +55,7 @@
     "url-loader": "^0.5.7",
     "vue-loader": "^10.0.2",
     "vue-style-loader": "^1.0.0",
+    "vue-template-compiler": "^2.1.8",
     "webpack": "^1.13.3",
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.15.0",
