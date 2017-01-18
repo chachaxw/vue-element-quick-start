@@ -19,6 +19,7 @@ npm run build
 # serve with backend mock data at localhost:8080
 npm run server
 
+```
 
 For detailed explanation on how things work, checkout the
 [project guide](http://vuejs-templates.github.io/webpack/).
@@ -33,7 +34,6 @@ More docs:
 ![Screen Shot](http://7xqacx.com1.z0.glb.clouddn.com/backend_managment.png)
 
 ## Project Structure
-
 ```
 .
 ├── build/                        # webpack config files
