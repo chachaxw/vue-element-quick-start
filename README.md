@@ -29,6 +29,7 @@ More docs:
 [docs for vue-router 2](http://router.vuejs.org/en/index.html)
 [docs for element-ui](http://element.eleme.io)
 [docs for vuex](http://vuex.vuejs.org/en/index.html)
+[docs for webpack](https://webpack.js.org)
 
 ## Page Screen Shot
 ![Screen Shot](http://7xqacx.com1.z0.glb.clouddn.com/backend_managment.png)
