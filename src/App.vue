@@ -2,7 +2,6 @@
   <div id="app">
     <NavMenu></NavMenu>
     <Container></Container>
-    <Loading :show="true"></Loading>
   </div>
 </template>
 
