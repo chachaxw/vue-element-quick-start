@@ -21,6 +21,11 @@
   color: #dbdbdb;
 }
 
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
 // 顶栏样式
 .top-bar {
   height: 60px;
