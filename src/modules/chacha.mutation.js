@@ -1,17 +1,16 @@
 import * as types from './mutation-types';
 
+/* eslint no-param-reassign: 0 */
 const state = {
   count: 0,
 };
 
 const mutations = {
-  [types.INCREMENT]() {
-    state.count += 1;
-    console.log(state.count);
+  [types.INCREMENT](data) {
+    data.count += 1;
   },
-  [types.DECREMENT]() {
-    state.count -= 1;
-    console.log(state.count);
+  [types.DECREMENT](data) {
+    data.count -= 1;
   },
 };
 

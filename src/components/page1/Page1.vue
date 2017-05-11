@@ -3,9 +3,9 @@
     <h1 v-text="hello"></h1>
     <div class="vuex-example">
       <h2>Vuex2 Example</h2>
-      <button  @click="decrement">-</button>
+      <button @click="decrement"><i class="el-icon-minus"></i></button>
       <span v-text="count"></span>
-      <button @click="increment">+</button>
+      <button @click="increment"><i class="el-icon-plus"></i></button>
     </div>
   </div>
 </template>
@@ -34,6 +34,7 @@
     watch: {
       countNum(val) {
         this.count = val;
+        console.log(val);
       },
     },
   };

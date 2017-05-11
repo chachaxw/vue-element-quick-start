@@ -9,9 +9,10 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   actions,
   getters: {
-    count: state => state.count,
+    count: state => state.mutations.count,
   },
   modules: {
     mutations,
   },
+  strict: process.env.NODE_ENV !== 'production',
 });

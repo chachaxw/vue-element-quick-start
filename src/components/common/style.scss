@@ -24,6 +24,7 @@
 body, html {
   margin: 0;
   padding: 0;
+  font-family: aileron,微软雅黑,"arial", "sans-serif";
 }
 
 // 顶栏样式
@@ -181,6 +182,11 @@ body, html {
 #container {
   height: 100vh;
   flex: 1 auto;
+  .page {
+    width: 100%;
+    overflow: hidden;
+    height: calc(100% - 60px);
+  }
 }
 
 // 公共样式
@@ -197,6 +203,8 @@ a {
   text-decoration: none;
   color: #C0CCDA;
 }
+
+// active link style
 .router-link-active {
   color: #20a0ff;
 }
@@ -211,23 +219,17 @@ a {
 }
 @keyframes animate-in {
   0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.2);
+    opacity: 0;
   }
   100% {
-    transform: scale(1);
+    opacity: 1;
   }
 }
 @keyframes animate-out {
   0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
+    opacity: 1;
   }
   100% {
-    transform: scale(0);
+    opacity: 0;
   }
 }
