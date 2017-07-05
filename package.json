@@ -15,7 +15,7 @@
     "normalize.css": "^7.0.0",
     "opn": "^5.1.0",
     "vue": "^2.3.4",
-    "vue-router": "^2.6.0",
+    "vue-router": "^2.7.0",
     "vuex": "^2.3.1"
   },
   "devDependencies": {
@@ -38,7 +38,7 @@
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.8.0",
     "eslint-plugin-html": "^3.0.0",
-    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-import": "^2.6.1",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.15.3",
     "extract-text-webpack-plugin": "^2.1.2",
@@ -61,7 +61,7 @@
     "vue-template-compiler": "^2.3.4",
     "webpack": "^3.0.0",
     "webpack-dev-middleware": "^1.11.0",
-    "webpack-hot-middleware": "^2.18.0",
+    "webpack-hot-middleware": "^2.18.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
