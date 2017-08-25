@@ -34,7 +34,7 @@
     "cors": "^2.8.4",
     "css-loader": "^0.28.5",
     "eslint": "^4.5.0",
-    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-config-airbnb-base": "^11.3.2",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-html": "^3.2.0",
