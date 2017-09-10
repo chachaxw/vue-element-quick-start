@@ -11,7 +11,7 @@
     "server": "supervisor node server/server.js"
   },
   "dependencies": {
-    "element-ui": "^1.4.3",
+    "element-ui": "^1.4.4",
     "normalize.css": "^7.0.0",
     "opn": "^5.1.0",
     "vue": "^2.4.2",
@@ -19,7 +19,7 @@
     "vuex": "^2.4.0"
   },
   "devDependencies": {
-    "autoprefixer": "^7.1.3",
+    "autoprefixer": "^7.1.4",
     "babel-core": "^6.26.0",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.1.2",
@@ -29,15 +29,15 @@
     "babel-preset-stage-2": "^6.24.1",
     "babel-register": "^6.26.0",
     "bluebird": "^3.5.0",
-    "body-parser": "^1.17.2",
+    "body-parser": "^1.18.0",
     "connect-history-api-fallback": "^1.1.0",
     "cors": "^2.8.4",
     "css-loader": "^0.28.7",
-    "eslint": "^4.5.0",
-    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.9.0",
-    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-html": "^3.2.1",
     "eslint-plugin-import": "^2.7.0",
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.15.4",
@@ -59,9 +59,9 @@
     "vue-loader": "^13.0.4",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.4.2",
-    "webpack": "^3.5.4",
+    "webpack": "^3.5.6",
     "webpack-dev-middleware": "^1.12.0",
-    "webpack-hot-middleware": "^2.18.2",
+    "webpack-hot-middleware": "^2.19.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
