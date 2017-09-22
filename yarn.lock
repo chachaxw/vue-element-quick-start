@@ -476,9 +476,9 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
-babel-plugin-component@^0.10.0:
-  version "0.10.0"
-  resolved "http://registry.npm.taobao.org/babel-plugin-component/download/babel-plugin-component-0.10.0.tgz#55d6dbc0f35d7a381931b16ff1ee34ef93085add"
+babel-plugin-component@^0.10.1:
+  version "0.10.1"
+  resolved "http://registry.npm.taobao.org/babel-plugin-component/download/babel-plugin-component-0.10.1.tgz#cfac25045e5c6e1353e89f05ff5a675af9712759"
 
 babel-plugin-syntax-async-functions@^6.8.0:
   version "6.13.0"
@@ -2027,9 +2027,9 @@ eslint-scope@^3.7.1:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint@^4.7.1:
-  version "4.7.1"
-  resolved "http://registry.npm.taobao.org/eslint/download/eslint-4.7.1.tgz#849804136953ebe366782f9f8611e2cbd1b54681"
+eslint@^4.7.2:
+  version "4.7.2"
+  resolved "http://registry.npm.taobao.org/eslint/download/eslint-4.7.2.tgz#ff6f5f5193848a27ee9b627be3e73fb9cb5e662e"
   dependencies:
     ajv "^5.2.0"
     babel-code-frame "^6.22.0"
