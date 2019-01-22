@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.set('port', process.env.PORT || 8080);
+app.set('port', process.env.PORT || 3000);
 
 // 允许跨域(调试)
 app.use(cors());

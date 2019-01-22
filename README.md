@@ -3,7 +3,7 @@
 ## Project setup
 ```
 yarn install
-$ yarn install -g pm2
+$ yarn global add pm2
 ```
 
 ### Compiles and hot-reloads for development
