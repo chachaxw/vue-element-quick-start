@@ -14,6 +14,7 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+
 #app {
   display: flex;
   min-width: 1080px;
@@ -30,18 +31,22 @@ body, html {
 // 顶栏样式
 .top-bar {
   height: 60px;
+
   .top-wrapper {
     flex: 1;
     margin-right: 64px;
   }
+
   .search-area {
-    padding: 16px 10px;
+    padding: 14px 10px;
     height: 100%;
     max-width: 320px;
+
     .el-form-item {
       margin: 0;
       border-radius: 16px;
       box-shadow: 0 5px 20px rgba(0,0,0,.3);
+
       .el-icon-search {
         top: 0;
         right: 0;
@@ -55,12 +60,15 @@ body, html {
         background-color: #20202A;
       }
     }
+
     .el-form-item__content {
       line-height: 1;
-    }
-    .el-input {
-      position: relative;
       height: 32px;
+    }
+
+    .el-input {
+      height: 32px;
+
       input {
         height: 32px;
         border: none;
@@ -69,6 +77,7 @@ body, html {
         opacity: 1;
         border-radius: 16px;
         background-color: #20202A;
+
         &::-webkit-input-placeholder {
           color: #C0CCDA;
         }
@@ -81,18 +90,22 @@ body, html {
       }
     }
   }
+
   .user-area {
-    padding: 16px 10px;
+    padding: 14px 10px;
     display: inline-block;
     position: relative;
+
     &:hover {
       background-color: #20202A;
       .drop-menu {
         display: block;
       }
     }
+
     .user-avatar {
       height: 32px;
+
       .avatar-img {
         display: inline-block;
         width: 32px;
@@ -102,8 +115,9 @@ body, html {
         vertical-align: middle;
         background: center no-repeat;
         background-size: cover;
-        background-color: #D8D8D8;
+        background-color: rgb(204, 201, 201);
       }
+
       .el-icon-arrow-down {
         vertical-align: middle;
         font-size: 12px;
@@ -111,20 +125,23 @@ body, html {
       }
     }
   }
+
   .drop-menu {
     position: absolute;
     right: 0;
-    top: 64px;
+    top: 60px;
     display: none;
     width: 140px;
     z-index: 1;
     background-color: #20202A;
     box-shadow: 0 5px 20px rgba(0,0,0,.3);
+
     ul {
       list-style: none;
       margin: 0;
       padding: 0;
     }
+
     li {
       padding: 12px 20px;
       cursor: pointer;
@@ -134,6 +151,7 @@ body, html {
         background-color: #2b3035;
       }
     }
+
     .iconfont {
       font-size: 20px;
       margin-right: 10px;
@@ -147,8 +165,10 @@ body, html {
   min-width: 240px;
   height: calc(100%-72px);
   border-radius: 0;
+  border-right: 0;
   background-color: #20202A;
   box-shadow: 5px 0 20px rgba(0,0,0,.3);
+
   .logo {
     width: 240px;
     height: 60px;
@@ -158,12 +178,15 @@ body, html {
       margin-top: 12px;
     }
   }
+
   .nav-link {
     display: block;
   }
+
   .el-menu {
     background-color: #1A191F;
   }
+
   .el-menu-item,
   .el-submenu .el-submenu__title {
     height: 44px;
@@ -173,6 +196,7 @@ body, html {
       background-color: #2b3035;
     }
   }
+
   .router-link-active {
     color: #03a9f4;
   }
@@ -182,6 +206,7 @@ body, html {
 #container {
   height: 100vh;
   flex: 1 auto;
+
   .page {
     width: 100%;
     overflow: hidden;

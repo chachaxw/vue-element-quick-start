@@ -6,13 +6,16 @@
 </template>
 
 <script>
+import { Component, Vue } from 'vue-property-decorator';
 import './components/common/style.scss';
 import NavMenu from './components/common/NavMenu.vue';
 import Container from './components/common/Container.vue';
 
-export default {
+@Component({
   components: {
-    NavMenu, Container,
+    NavMenu,
+    Container,
   },
-};
+})
+export default class App extends Vue {}
 </script>

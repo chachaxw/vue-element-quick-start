@@ -1,46 +1,54 @@
-# vue-element-quick-start
+# hello-world
 
-> A Vue.js and Element-ui project, powered by Vue2.0 and Element-ui.
-
-This is a vue2.0 quick start project, you can clone it and start your project quickly. It includes Element-ui, which is a full features UI components library, and Vuex, a state management tools. If any problems, you can commit your issues on the github.
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:3000
-npm run dev
-
-# build for production with minification
-npm run build
-
-# serve with backend mock data at localhost:8080
-npm run server
-
+## Project setup
+```
+yarn install
+$ yarn install -g pm2
 ```
 
-For detailed explanation on how things work, checkout the
-[project guide](http://vuejs-templates.github.io/webpack/).
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
 
-More docs:
-[doc for vue 2](http://vuejs.org/guide/)
-[docs for vue-router 2](http://router.vuejs.org/en/index.html)
-[docs for element-ui](http://element.eleme.io)
-[docs for vuex](http://vuex.vuejs.org/en/index.html)
-[docs for webpack](https://webpack.js.org)
+### Compiles and minifies for production
+```
+yarn run build
+```
 
-## Page Screen Shot
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```
+
+### Run your end-to-end tests
+```
+yarn run test:e2e
+```
+
+### Run your unit tests
+```
+yarn run test:unit
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Element UI offical website
+See [Element UI](https://element.eleme.io/).
+
+### Page Screen Shot
 ![Screen Shot](http://7xqacx.com1.z0.glb.clouddn.com/backend_managment.png)
 
-## Project Structure
+### Project Structure
 ```
 .
-├── build/                        # webpack config files
-│   └── ...
-├── config/
-│   ├── index.js                  # main project config
+├── public/                       # public files
 │   └── ...
 ├── server/                       # node server files
 │   ├── controller                # node controller files
@@ -66,10 +74,11 @@ More docs:
 │   ├── App.vue                   # app main component
 │   └── ...
 ├── static/                       # pure static assets (directly copied)
-├── .babelrc                      # babel config
-├── .editorconfig.js              # editor config
-├── .eslintrc.js                  # eslint config
-├── index.html                    # index.html template
+├── .babel.config.js              # babel config
+├── vue.config.js                 # webpack config
+├── cypress.json                  # Cypress config
+├── tsconfig.json                 # Typescript config
+├── tslint.json                   # Tslint config
 └── package.json                  # build scripts and dependencies
 
 ```

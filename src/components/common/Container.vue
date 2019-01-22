@@ -7,13 +7,14 @@
   </div>
 </template>
 
-<script type="text/javascript">
-import TopBar from './TopBar.vue';
+<script type="ts">
+import { Component, Vue } from 'vue-property-decorator';
+import TopBar from '@/components/common/TopBar.vue';
 
-export default {
+@Component({
   components: {
     TopBar,
   },
-};
-
+})
+export default class Container extends Vue {}
 </script>
