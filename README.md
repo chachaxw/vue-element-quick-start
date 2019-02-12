@@ -1,51 +1,62 @@
 # Vue element ui quick start
 
 ## Project setup
-```
+
+```Yarn
 yarn install
 $ yarn global add pm2
 ```
 
 ### Compiles and hot-reloads for development
-```
+
+``` Yarn
 yarn run serve
 ```
 
 ### Compiles and minifies for production
-```
+
+```Yarn
 yarn run build
 ```
 
 ### Run your tests
-```
+
+```Yarn
 yarn run test
 ```
 
 ### Lints and fixes files
-```
+
+```Yarn
 yarn run lint
 ```
 
 ### Run your end-to-end tests
-```
+
+```Yarn
 yarn run test:e2e
 ```
 
 ### Run your unit tests
-```
+
+```Yarn
 yarn run test:unit
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Element UI offical website
+
 See [Element UI](https://element.eleme.io/).
 
 ### Page Screen Shot
+
 ![Screen Shot](http://7xqacx.com1.z0.glb.clouddn.com/backend_managment.png)
 
 ### Project Structure
+
 ```
 .
 ├── public/                       # public files
