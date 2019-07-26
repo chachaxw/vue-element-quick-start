@@ -3,7 +3,7 @@
     <div class="top-wrapper">
       <div class="user-area pull-right">
         <div class="user-avatar">
-          <span class="avatar-img" :style="{ backgroundImage: 'url(' + avatar_url + ')' }"></span>
+          <span class="avatar-img" :style="{ backgroundImage: 'url(' + avatarUrl + ')' }"></span>
           <i class="el-icon-arrow-down"></i>
           <div class="drop-menu">
             <ul>
@@ -17,7 +17,7 @@
         <el-form>
           <el-form-item>
             <i class="el-icon-search"></i>
-            <el-input placeholder="搜索"></el-input>
+            <el-input placeholder="搜索" v-model="query"></el-input>
           </el-form-item>
         </el-form>
       </el-col>
@@ -29,7 +29,8 @@
   export default {
     data() {
       return {
-        avatar_url: 'http://img0.imgtn.bdimg.com/it/u=1787407765,2524017231&fm=11&gp=0.jpg',
+        query: '',
+        avatarUrl: 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
       };
     },
     methods: {

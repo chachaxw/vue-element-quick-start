@@ -11,7 +11,7 @@
     "server": "pm2 start server/server.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.19.0",
     "element-ui": "^2.8.2",
     "express": "^4.17.0",
