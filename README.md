@@ -1,5 +1,9 @@
 # Vue element ui quick start
 
+![Github issues](https://img.shields.io/github/issues/chachaxw/vue-element-quick-start)
+![Github forks](https://img.shields.io/github/forks/chachaxw/vue-element-quick-start)
+![Github stars](https://img.shields.io/github/stars/chachaxw/vue-element-quick-start)
+
 ## Project setup
 
 ```Yarn
